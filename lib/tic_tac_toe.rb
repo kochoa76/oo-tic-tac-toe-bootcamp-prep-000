@@ -74,5 +74,5 @@ def current_player()
         return combo
       end
     end
-  
+  end
 
