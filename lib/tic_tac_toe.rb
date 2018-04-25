@@ -70,8 +70,9 @@ def current_player()
   
   def won?()
     WIN_COMBINATIONS.any? do |combo|
-    true 
-    display_board
- end 
-end 
+    if position_taken?(combo[0]) && @board[combo[0]] == @board[combo[1]] && @board[combo[1]] == @board[combo[2]]
+        return combo
+      end
+    end
+  
 
