@@ -43,7 +43,7 @@ WIN_COMBINATIONS= [
   index = input_to_index(input)
   if valid_move?(index)
     token = current_player
-    move(index)
+    move(index, token)
   else
     turn
   end
