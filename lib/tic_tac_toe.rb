@@ -95,7 +95,7 @@ def over?
   end
     
 def play
-    turn until over?
+    turn until draw? over?
     puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
   end
 
