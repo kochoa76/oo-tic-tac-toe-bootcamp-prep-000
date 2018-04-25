@@ -90,6 +90,6 @@ def over?
   
   def winner
     won? 
-    token 
+    
   end 
 end
