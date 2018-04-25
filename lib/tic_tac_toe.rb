@@ -81,7 +81,7 @@ def current_player()
   end
 
 def draw?
-  @board.full?
+  @board.full? && !@board.won?
 end
   end
 
