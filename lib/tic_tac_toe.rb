@@ -75,5 +75,8 @@ def current_player()
       end
     end
   end
+  
+  def draw?
+    
   end
 
