@@ -93,7 +93,7 @@ def over?
       @board[combo[0]]
     end
     
-    def play 
+def play() 
       turn()
     end
       
