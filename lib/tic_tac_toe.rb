@@ -76,7 +76,9 @@ def current_player()
     end
   end
   
-  def draw?
+  def full?
+    @board(index) full? 
+  end 
     
   end
 
