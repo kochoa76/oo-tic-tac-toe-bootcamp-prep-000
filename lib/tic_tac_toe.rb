@@ -67,6 +67,10 @@ def current_player()
     "O"
     end
   end
+  
+  def won?()
+    WIN_COMBINATIONS
+    true 
 
 end 
 
