@@ -94,11 +94,9 @@ def over?
     end
     
 def play
-      turn until over? 
-      puts winner "Congrats #{"winner"}!"
-    else 
-      puts "Game ended in a draw"
-    end
-      
-  end 
+    turn until over?
+    puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
+  end
+end
+  
 end
