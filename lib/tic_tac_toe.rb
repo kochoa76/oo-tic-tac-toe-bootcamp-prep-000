@@ -69,8 +69,9 @@ def current_player()
   end
   
   def won?()
-    WIN_COMBINATIONS.detect
+    WIN_COMBINATIONS.any? do |combo|
     true 
+    display_board
  end 
 end 
 
