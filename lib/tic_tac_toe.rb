@@ -95,7 +95,7 @@ def over?
     
 def play
       turn until over? 
-      puts "Congrats #{"winner"}!"
+      puts winner "Congrats #{"winner"}!"
     else 
       puts "Game ended in a draw"
     end
