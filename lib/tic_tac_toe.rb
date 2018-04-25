@@ -77,9 +77,9 @@ def current_player()
   end
   
   def full?
-    @board.all?{|square|
-      square != ""}
-  end 
+    @board.all?{|square| square != " " }
+  end
+
  end 
   end
 
