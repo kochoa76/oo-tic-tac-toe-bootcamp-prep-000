@@ -85,6 +85,6 @@ def draw?
 end
 
 def over?
-  !draw?
+  full? || won?
   end
 end
