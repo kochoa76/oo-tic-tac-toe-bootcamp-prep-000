@@ -43,9 +43,9 @@ WIN_COMBINATIONS= [
   index = input_to_index(input)
   if valid_move?(index)
     move(index)
-    display_board(@board)
+    display_board()
   else
-    turn(@board)
+    turn()
   end
 end
 
