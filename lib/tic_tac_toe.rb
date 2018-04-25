@@ -95,8 +95,7 @@ def over?
   end
   
   def play
-    turn() 
-    until over?
+    @board.turn() until over?
     puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
   end
 end
