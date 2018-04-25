@@ -80,6 +80,5 @@ def current_player()
     @board.all?{|square| square != " " }
   end
 
- end 
   end
 
