@@ -80,5 +80,7 @@ def current_player()
     @board.all?{|square| square != " " }
   end
 
+def draw?
+  @board.full?
   end
 
