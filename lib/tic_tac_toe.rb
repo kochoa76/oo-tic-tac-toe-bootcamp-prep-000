@@ -89,7 +89,9 @@ def over?
   end
   
   def winner
-    won? 
+    if combo = won?
+      @board[combo[0]]
+    end
     
   end 
 end
