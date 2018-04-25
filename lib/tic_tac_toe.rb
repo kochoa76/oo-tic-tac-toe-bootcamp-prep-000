@@ -82,5 +82,6 @@ def current_player()
 
 def draw?
   @board.full?
+end
   end
 
