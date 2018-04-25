@@ -93,5 +93,9 @@ def over?
       @board[combo[0]]
     end
     
+    def play 
+      turn()
+    end
+      
   end 
 end
