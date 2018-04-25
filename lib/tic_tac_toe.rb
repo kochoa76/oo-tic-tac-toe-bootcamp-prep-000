@@ -83,5 +83,8 @@ def current_player()
 def draw?
   full? && !won?
 end
-  end
 
+def over?
+  draw?
+  end
+end
