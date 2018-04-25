@@ -95,7 +95,7 @@ def over?
   end
   
   def play
-    turn until over?
+    turn() until over?
     puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
   end
 end
